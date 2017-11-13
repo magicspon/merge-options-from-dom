@@ -1,0 +1,28 @@
+{
+	"name": "merge-options-from-dom",
+	"version": "1.0.4",
+	"main": "dist/index.min.js",
+	"devDependencies": {
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-preset-env": "^1.6.0",
+		"rollup": "^0.46.0",
+		"rollup-plugin-babel": "^3.0.2",
+		"rollup-plugin-uglify": "^2.0.1"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "NODE_ENV=development rollup -c -w"
+	},
+	"files": ["dist"],
+	"description": "Merge JSON from the dom with default options",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/magicspon/merge-options-from-dom.git"
+	},
+	"author": "Dave Stockley",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/magicspon/merge-options-from-dom/issues"
+	},
+	"homepage": "https://github.com/magicspon/merge-options-from-dom#readme"
+}
