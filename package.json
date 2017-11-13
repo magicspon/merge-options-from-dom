@@ -3,6 +3,7 @@
 	"version": "1.0.4",
 	"main": "dist/index.min.js",
 	"devDependencies": {
+		"babel-core": "^6.26.0",
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-env": "^1.6.0",
 		"rollup": "^0.46.0",
@@ -13,7 +14,9 @@
 		"build": "rollup -c",
 		"dev": "NODE_ENV=development rollup -c -w"
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"description": "Merge JSON from the dom with default options",
 	"repository": {
 		"type": "git",
