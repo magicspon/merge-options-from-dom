@@ -1,6 +1,6 @@
 {
 	"name": "merge-options-from-dom",
-	"version": "1.0.4",
+	"version": "0.0.1",
 	"main": "dist/index.min.js",
 	"devDependencies": {
 		"babel-core": "^6.26.0",
@@ -14,9 +14,7 @@
 		"build": "rollup -c",
 		"dev": "NODE_ENV=development rollup -c -w"
 	},
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"description": "Merge JSON from the dom with default options",
 	"repository": {
 		"type": "git",
